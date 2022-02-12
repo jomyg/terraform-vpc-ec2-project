@@ -1,4 +1,4 @@
-# Creating a VPC and launching EC2 instances in it using Terraform
+# Creating a VPC and launching EC2 instances in AWS using Terraform
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)]()
 
