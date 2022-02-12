@@ -85,11 +85,11 @@ Here, I'm using the following values
 region       = "us-east-2"
 project_name = "my-project"
 vpc_cidr     = "172.31.0.0/16"
-subnet_bit   = "2"                              #####as I'm subnetting into 4  
+subnet_bit   = "2"                              ## <<== Subnetting into FOUR 
 ami          = "ami-0443305dabd4be2bc"          
 type         = "t2.micro"
 access_key = "xxxxxxxxxxxxxxxx"
-secret_key = "xxxxxxxxxxxxxxxxxxxxxx"
+secret_key = "xxxxxxxxxxxxxxxx"
 ```
 
 Enter the command given below to initialize a working directory containing Terraform configuration files. This is the first command that should be run after writing a new Terraform configuration.
