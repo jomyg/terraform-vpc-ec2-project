@@ -8,10 +8,6 @@ This is a terraform-aws project which deals with creating a VPC having 4 Subnets
 I'm also going to spin up EC2 instances inside the VPC. Two instances will be in the public subnet, where 1 could be used as a webserver and the other as a bastion server for secured access.
 The EC2 instance for database will be created in the private subnet for improved security. The remaining 1 private subnet can be used for creating a database replica in future if there occurs any requirement.
 
-All of these will be created by simply running a terraform code which I created.
-
-
-> Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can help with multi-cloud by having one workflow for all clouds. The infrastructure Terraform manages can be hosted on public clouds like Amazon Web Services, Microsoft Azure, and Google Cloud Platform, or on-prem in private clouds such as VMWare vSphere, OpenStack, or CloudStack. Terraform treats infrastructure as code (IaC) so you never have to worry about you infrastructure drifting away from its desired configuration.
 
 
 ## Pre-requisites:
