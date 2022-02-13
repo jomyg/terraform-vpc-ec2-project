@@ -4,10 +4,13 @@
 
 ## Description:
 
-This is a terraform-aws project which deals with creating a VPC having 4 Subnets: 2 Private and 2 Public, 1 NAT Gateways, 1 Internet Gateway, and 2 Route Tables. 
-I'm also going to spin up EC2 instances inside the VPC. Two instances will be in the public subnet, where 1 could be used as a webserver and the other as a bastion server for secured access.
-The EC2 instance for database will be created in the private subnet for improved security. The remaining 1 private subnet can be used for creating a database replica in future if there occurs any requirement.
+This is a terraform-aws project which deals with creating a VPC having 
+- Four Subnets-> Two Private and two Public 
+- One NAT Gateways
+- One Internet Gateway
+- Two Route Tables
 
+I'm going to spin up EC2 instances inside the VPC. Two EC2 will be in the public subnet, where 1 could be used as a WEBSERVER and the other as a BASTION server for secured access. The EC2 instance for database will be created in the private subnet for improved security. The remaining one private subnet can be used for creating a database replica in future if there occurs any requirement.
 
 
 ## Pre-requisites:
